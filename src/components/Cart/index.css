@@ -25,3 +25,9 @@
   cursor: pointer;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .cart-img {
+    width: 40%;
+  }
+}
