@@ -4,7 +4,7 @@ import './index.css'
 
 const SimilarProductItem = props => {
   const {productDetails} = props
-  const {imageUrl, title, brand, rating, price} = productDetails
+  const {title, brand, imageUrl, rating, price} = productDetails
 
   return (
     <li className="similar-product-item">
@@ -15,7 +15,7 @@ const SimilarProductItem = props => {
       />
       <p className="similar-product-title">{title}</p>
       <p className="similar-products-brand">by {brand}</p>
-      <div className="similar-product-prcie-rating-container">
+      <div className="similar-product-price-rating-container">
         <p className="similar-product-price">Rs {price}/-</p>
         <div className="similar-product-rating-container">
           <p className="similar-product-rating">{rating}</p>
@@ -31,3 +31,4 @@ const SimilarProductItem = props => {
 }
 
 export default SimilarProductItem
+
